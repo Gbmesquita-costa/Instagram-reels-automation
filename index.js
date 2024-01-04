@@ -70,8 +70,6 @@ async function createReels() {
     return
   }
 
-  await TimeOut(timeRemaining)
-
   await page.type('input[name="username"]', email)
   await page.type('input[name="password"]', password)
 
