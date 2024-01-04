@@ -10,7 +10,7 @@ Este projeto em Node.js utiliza Puppeteer para automatizar a publicação/agenda
 1. Clone este repositório para o seu ambiente local.
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-projeto.git
+    git clone https://github.com/Gbmesquita-costa/Instagram-reels-automation.git
     ```
 
 2. Navegue até o diretório do projeto.
@@ -22,14 +22,14 @@ Este projeto em Node.js utiliza Puppeteer para automatizar a publicação/agenda
 3. Instale as dependências necessárias.
 
     ```bash
-    npm install
+    npm install, yarn...
     ```
 
 ## Execução
 1. Execute o script principal.
 
     ```bash
-    npm run dev, yarn dev, etc.
+    npm run dev, yarn dev...
     ```
 
 2. O script solicitará as informações necessárias via terminal. Insira as informações conforme solicitado.
