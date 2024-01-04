@@ -19,7 +19,22 @@ Este projeto em Node.js utiliza Puppeteer para automatizar a publicação/agenda
     cd nome-do-projeto
     ```
 
-3. Instale as dependências necessárias.
+3. Abra o arquivo `index.js` e ajuste a configuração do caminho do executável do Browser a sua escolha.
+
+    ```javascript
+    const puppeteer = require('puppeteer');
+
+    // ...
+
+    const browser = await puppeteer.launch({
+        // Outras configurações...
+        executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe"
+    })
+
+    // ...
+    ```
+
+4. Instale as dependências necessárias.
 
     ```bash
     npm install, yarn...
@@ -36,8 +51,8 @@ Este projeto em Node.js utiliza Puppeteer para automatizar a publicação/agenda
 
 ## Detalhes das Entradas
 - **Email e Senha:** Informe suas credenciais do Instagram.
-- **Caminho do Arquivo de Vídeo:** Caminho completo para o arquivo de vídeo, ex: `C:\Users\admin\Documents\file.mp4`.
-- **Caminho da Foto de Capa:** Caminho completo para a foto de capa, ex: `C:\Users\admin\Documents\foto de capa.jpg`.
+- **Caminho do Arquivo de Vídeo:** Caminho completo para o arquivo de vídeo, ex: `C:/Users/admin/Documents/file.mp4`.
+- **Caminho da Foto de Capa:** Caminho completo para a foto de capa, ex: `C:/Users/admin/Documents/foto de capa.jpg`.
 - **Tempo de Cliques (em milissegundos):** Tempo recomendado é 2500 milissegundos por clique.
 - **Hashtags:** Informe as hashtags separadas por espaços, ex: `#programador #node`.
 - **Data e Hora de Publicação:** Informe a data e hora no formato especificado, ex: `dia: 10, mês: 08, ano: 2024, hora: 15, minuto: 10`.

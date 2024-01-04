@@ -1,2 +1,48 @@
-node_modules
+# Dependências Node.js
+node_modules/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.js
+.pnp.js.*
+
+# Arquivos temporários
+.vscode/
+.idea/
+.nyc_output/
+coverage/
+node_modules.bak/
+
+# Arquivos de compilação nativa (pode variar dependendo do uso de compilação nativa)
+/build/
+/out/
+dist
+
+# Variáveis de ambiente
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cache
+.cache/
+dist/
+
+# Arquivos de compilação/transpilação
+*.log
+*.bak
+*.swp
+*.map
+*.tsbuildinfo
+dist/
+
+# Arquivos gerados pelo seu ambiente de desenvolvimento ou sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
