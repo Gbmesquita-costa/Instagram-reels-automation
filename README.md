@@ -29,7 +29,7 @@ Este projeto em Node.js utiliza Puppeteer para automatizar a publicação/agenda
 1. Execute o script principal.
 
     ```bash
-    node main.js
+    npm run dev, yarn dev, etc.
     ```
 
 2. O script solicitará as informações necessárias via terminal. Insira as informações conforme solicitado.
